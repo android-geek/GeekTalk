@@ -34,13 +34,23 @@
         </dependency>
         <dependency>
             <groupId>me.xuxiaoxiao</groupId>
-            <artifactId>chatapi-wechat</artifactId>
-            <version>1.1.4</version>
+            <artifactId>xtools-common</artifactId>
+            <version>1.1.2</version>
         </dependency>
         <dependency>
             <groupId>me.xuxiaoxiao</groupId>
-            <artifactId>chatapi-qq</artifactId>
-            <version>1.1.1</version>
+            <artifactId>xtools-server</artifactId>
+            <version>0.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.1.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mariadb.jdbc</groupId>
+            <artifactId>mariadb-java-client</artifactId>
+            <version>1.1.7</version>
         </dependency>
     </dependencies>
 
