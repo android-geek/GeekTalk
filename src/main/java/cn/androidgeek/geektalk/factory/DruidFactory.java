@@ -12,11 +12,11 @@ import java.util.Objects;
 public class DruidFactory extends XModelFactory {
     public static final String DB_URL_DEV = "jdbc:mariadb://xuxiaoxiao.me:3306/geektalk_test";
     public static final String DB_USR_DEV = "root";
-    public static final String DB_PWD_DEV = "920910";
+    public static final String DB_PWD_DEV = "";
 
     public static final String DB_URL_PROD = "jdbc:mariadb://xuxiaoxiao.me:3306/geektalk_prod";
     public static final String DB_USR_PROD = "root";
-    public static final String DB_PWD_PROD = "920910";
+    public static final String DB_PWD_PROD = "";
 
     private static final DruidDataSource DATA_SOURCE = new DruidDataSource();
 

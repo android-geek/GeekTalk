@@ -15,13 +15,10 @@ import java.io.IOException;
 @WebFilter(urlPatterns = "*.jsp")
 public class JspFilter implements Filter {
 
-    static {
-        XIocTools.register(XAction.class, new XActionFactory());
-        XIocTools.register(XModel.class, new DruidFactory());
-    }
-
     @Override
     public void init(FilterConfig filterConfig) {
+        XIocTools.register(XAction.class, new XActionFactory());
+        XIocTools.register(XModel.class, new DruidFactory());
     }
 
     @Override
