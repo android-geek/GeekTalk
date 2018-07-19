@@ -10,3 +10,17 @@
     text-align: center;
     font-size: xx-large;
 }
+
+.user .verify {
+}
+
+.user .verify .notice {
+    padding-top: 128px;
+    font-size: x-large;
+}
+
+.user .verify .detail {
+    padding-bottom: 32px;
+    font-size: small;
+    color: gray;
+}

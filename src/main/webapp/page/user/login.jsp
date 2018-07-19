@@ -1,8 +1,10 @@
+<%@ page import="cn.androidgeek.geektalk.controller.page.user.PEmailSend" %>
+<%@ page import="me.xuxiaoxiao.xtools.server.XServerTools" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <jsp:include page="/jsp/common.jsp"/>
-    <title>极聊-用户注册</title>
+    <title>极聊-用户登录</title>
 </head>
 <body>
 <div class="user">
@@ -32,6 +34,11 @@
                     <div class="row">
                         <div class="col-12">
                             <button class="form-btn full-width">登录</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="<%=XServerTools.ctrlPath(request,PEmailSend.class)%>">没有账号？立刻注册！</a>
                         </div>
                     </div>
                 </form>
